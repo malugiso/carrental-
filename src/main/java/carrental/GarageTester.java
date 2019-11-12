@@ -7,8 +7,10 @@ package carrental;
 public class GarageTester {
 	
 	public static Garage getExample() {
-		// Your code 
-		return null;
+		Truck exTruck = new Truck("black", false);
+		Garage g = new Garage();
+		g.setVehicle(exTruck);
+		return g;
 	}
 	
 	public static void main(String[] args) {
