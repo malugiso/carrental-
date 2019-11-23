@@ -24,8 +24,8 @@ public class CarRental {
 	public String displayContracts() {
 		
 		String tmp = "";
-		for (CarRentalContract carRentalContract : crc) {
-			tmp += carRentalContract.toString() + "\n";
+		for (int i = 0; i < crcValue; i++) {
+			tmp += crc[i].toString() + "\n";
 		}
 		return tmp;
 	}
